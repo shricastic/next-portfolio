@@ -61,7 +61,7 @@ export default function() {
         </form>
       </div>  
       
-      <div className="pt-10 md:pt-20"> <Socials /> </div>
+      <div className="pt-20"> <Socials /> </div>
 
     </div>
   );

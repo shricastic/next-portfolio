@@ -20,18 +20,18 @@ export default function() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-5xl"
       >
         <div className="flex justify-center pb-6">
           <Image 
             src={profile} 
-            width={250} 
-            height={250} 
+            width={200} 
+            height={200} 
             alt="profile picture"
             className="rounded-full"/>
         </div>  
         Shrikrushna C Gundre <br /> 
-        <FlipWords words={words} className="text-center md:text-5xl"/> <br />
+        <FlipWords words={words} className="text-center text-2xl md:text-3xl"/> <br />
         <div className="pt-5 flex justify-center"><Socials /></div>
       </motion.h1>
       
