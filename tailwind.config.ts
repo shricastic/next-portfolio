@@ -58,6 +58,31 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.white'), // Apply to all text
+            h1: {
+              color: theme('colors.white'), // Ensure h1 is white
+            },
+            h2: {
+              color: theme('colors.white'), // Ensure h2 is white
+            },
+            h3: {
+              color: theme('colors.white'), // Ensure h3 is white
+            },
+            h4: {
+              color: theme('colors.white'), // Ensure h4 is white
+            },
+            strong: {
+              color: theme('colors.white'), // Ensure strong text is white
+            },
+            span: {
+              color: theme('colors.white'), // Ensure span text is white
+            },
+          },
+        },
+      }),
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -85,6 +110,7 @@ const config = {
             opacity: "0",
           },
         },
+        
       },
 
       animation: {
@@ -95,7 +121,10 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"), 
+    require('@tailwindcss/typography'),
+  ],
 } satisfies Config
 
 export default config

@@ -17,7 +17,7 @@ export default function() {
 
   return (
     <div className="h-screen relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20 pb-10"> Contact Me</h1>
+      <h1 className="md:text-7xl text-3xl font-bold text-center text-white relative z-20 pb-10"> Contact Me</h1>
       
       <div className="flex w-1/2 justify-center">
         <form onSubmit={handleSubmit} className="space-y-2 w-full md:w-1/2">

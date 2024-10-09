@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
 import Image from 'next/image';
-import profile from '../app/images/profile.jpeg'
+import profile from '/public/images/profile.jpeg'
 import {FlipWords} from './ui/flip-words' 
 import Socials from './Socials'
 
@@ -28,7 +28,7 @@ export default function() {
             width={200} 
             height={200} 
             alt="profile picture"
-            className="rounded-full"/>
+            className="rounded-full shadow-[5px_-2px_11px_2px_#000000]"/>
         </div>  
         Shrikrushna C Gundre <br /> 
         <FlipWords words={words} className="text-center text-2xl md:text-3xl"/> <br />
