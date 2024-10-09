@@ -1,7 +1,7 @@
 import React from "react";
 import { Meteors } from "./ui/meteors";
 import Link from 'next/link'
-import {IconArrowRight, IconBrandGithub} from '@tabler/icons-react'
+import {IconArrowRight, IconBrandGithub, IconPointFilled} from '@tabler/icons-react'
 
 export interface Content{
       title: string; 
@@ -28,7 +28,7 @@ export function ProjectCard(props: Content) {
 
           <p className="font-bold text-slate-500 mb-4 relative z-50">{props.desc} </p>
           
-          <div className="flex gap-x-2 pb-4 text-green-400 font-bold"><div className="w-3 h-3 bg-blue-500 rounded-full"></div><p>{props.tech}</p></div>
+          <div className="flex gap-x-2 pb-4 text-green-400 font-bold"> <IconPointFilled className='text-blue-500' size={30} /> <p>{props.tech}</p></div>
           <Link href={`/projects/${props.page}`} >
             <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
               Explore

@@ -3,7 +3,7 @@
 import React from "react";
 import SkillButton from './SkillButton'
 
-export default function() {
+export default function Skills() {
   return (
     <div className="h-screen relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
 

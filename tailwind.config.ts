@@ -58,7 +58,7 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      typography: (theme) => ({
+      typography: (theme:any) => ({
         DEFAULT: {
           css: {
             color: theme('colors.white'), // Apply to all text

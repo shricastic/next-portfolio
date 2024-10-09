@@ -7,7 +7,7 @@ import profile from '/public/images/profile.jpeg'
 import {FlipWords} from './ui/flip-words' 
 import Socials from './Socials'
 
-export default function() {
+export default function Intro() {
   const words = ["Computer Science Engineer", "Photographer", "Coder", "Traveller"];
 
   return (

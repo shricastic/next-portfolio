@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function(){
+export default function Socials(){
 
   return(
     <div className="flex flex-wrap gap-x-5 justify-center">

@@ -3,7 +3,7 @@
 import React, {useState} from "react";
 import Socials from './Socials'
 
-export default function() {
+export default function Contact() {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');

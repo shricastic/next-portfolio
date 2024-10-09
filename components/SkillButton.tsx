@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function(props: {img: string; name: string;}){
+export default function SkillButton(props: {img: string; name: string;}){
 
   return(
     <button className="relative inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
