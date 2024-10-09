@@ -13,7 +13,7 @@ export const projects = [
       tech: "TypeScript, NextJs, MDX, Framer Motion, Aceternity",
       github: "https://github.com/shricastic/next-portfolio",
       live: "https://shricastic.in",
-      page: "blockcertify"
+      page: "next-portfolio"
     },
 ]
 
