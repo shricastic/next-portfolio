@@ -30,7 +30,7 @@ export default function Intro() {
             alt="profile picture"
             className="rounded-full shadow-[5px_-2px_11px_2px_#000000]"/>
         </div>  
-        Shrikrushna Gundre <br /> 
+        <p className="text-slate-300">Shrikrushna Gundre</p>
         <FlipWords words={words} className="text-center text-2xl md:text-3xl"/> <br />
         <div className="pt-5 flex justify-center"><Socials /></div>
       </motion.h1>

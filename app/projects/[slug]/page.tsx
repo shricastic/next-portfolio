@@ -15,7 +15,7 @@ export default async function Project({params} : {params: {slug: string}}){
   const {title, image, author} = metadata
 
   return(
-    <section className='pb-24 pt-20 bg-black'>
+    <section className='pb-24 pt-20'>
       <div className='container max-w-2xl'>
         <Link
           href='/projects'
@@ -37,7 +37,7 @@ export default async function Project({params} : {params: {slug: string}}){
         )}
 
         <header>
-          <h1 className='text-2xl text-white font-bold md:text-4xl'>{title}</h1>
+          <h1 className='text-2xl font-bold md:text-4xl'>{title}</h1>
           <p className='mt-1 text-xs text-muted-foreground'>~ {author}</p>
         </header>
 

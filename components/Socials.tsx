@@ -1,38 +1,31 @@
-import Image from 'next/image'
+import { FaLinkedin, FaGithub} from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { BsTwitterX } from "react-icons/bs";
 
 export default function Socials(){
 
   return(
-    <div className="flex flex-wrap gap-x-5 justify-center">
+    <div className="flex flex-wrap gap-x-5 justify-center text-slate-400">
       <a href="https://linkedin.com/in/shricastic">
-        <Image src="https://www.svgrepo.com/show/54425/linkedin.svg"
-        alt="Linkedin" width={35} height={35}
-        className="cursor-pointer"
-      /></a>
+        <FaLinkedin className='w-6 h-6 transition-transform duration-500 hover:scale-110 md:w-8 md:h-8'/>
+      </a>
 
       <a href="https:/github.com/shricastic">
-        <Image src="https://www.svgrepo.com/show/217753/github.svg"
-        alt="Linkedin" width={35} height={35}
-        className="cursor-pointer"
-      /></a>
+         <FaGithub className='w-6 h-6 transition-transform duration-500 hover:scale-110 md:w-8 md:h-8'/>
+      </a>
 
       <a href='mailto:shricse07@gmail.com'>
-        <Image src="https://www.svgrepo.com/show/375840/mail.svg"
-        alt="Linkedin" width={35} height={35}
-        className="cursor-pointer"
-      /></a> 
+        <IoMdMail className='w-6 h-6 transition-transform duration-500 hover:scale-110 md:w-8 md:h-8'/>
+      </a> 
 
       <a href='https://twitter.com/shricastic7'>
-        <Image src="https://www.svgrepo.com/show/331618/twitter.svg"
-        alt="Linkedin" width={35} height={35}
-        className="cursor-pointer"
-      /></a> 
+        <BsTwitterX className='w-6 h-6 transition-transform duration-500 hover:scale-110 md:w-8 md:h-8'/>
+      </a> 
 
       <a href='https://drive.google.com/file/d/12GnO1sORPzmPTiGzQcv5dU0_t-LTFPtR/view'>
-        <Image src="https://www.svgrepo.com/show/256714/download-file-document.svg"
-        alt="Linkedin" width={35} height={35}
-        className="cursor-pointer"
-      /></a> 
+        <img src="/images/cv.svg" alt="cv" className="w-6 h-6 filter invert transition-transform duration-500 hover:scale-110 md:w-8 md:h-8"/> 
+      </a>
     </div>     
   )
 }
+;

@@ -14,7 +14,7 @@ interface BlogCardProps {
 
 export function BlogCard({ props }: BlogCardProps) {
   return (
-    <div className="cursor-pointer group relative m-5 flex flex-col my-6 bg-slate-900 border border-slate-700 rounded-lg w-96 hover:shadow-lg transition-shadow duration-300">
+    <div className="cursor-pointer group relative m-5 flex flex-col my-6 bg-slate-900 border border-slate-700 rounded-lg w-96 hover:shadow-lg transition-shadow transition-transform duration-500 hover:scale-110 bg-opacity-40">
       <div className="p-4">
         <div className="h-56 w-full overflow-hidden bg-neutral-950">
         <img
