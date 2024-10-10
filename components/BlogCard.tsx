@@ -43,7 +43,7 @@ export function MoreBlogsCard() {
     <Link href={'/blogs'}>
       <div className="cursor-pointer h-fit block bg-slate-900 border border-slate-700 rounded-lg hover:shadow-lg transition-shadow duration-300">
         <div className="p-4">
-          <IconArrowRight className='w-10 h-10' />
+          <IconArrowRight className='w-10 h-10' color='white' />
         </div>
       </div>
     </Link>

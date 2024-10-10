@@ -8,7 +8,7 @@ export default async function ProjectsPage() {
 
   return(
     <section > 
-      <div>
+      <div className="bg-black">
         <Link
           href='/'
           className='absolute inline-flex mt-3 pl-10 items-center gap-2 text-sm font-light text-muted-foreground transition-colors hover:text-foreground'
