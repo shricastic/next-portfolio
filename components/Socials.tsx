@@ -22,12 +22,6 @@ export default function Socials(){
         className="cursor-pointer"
       /></a> 
 
-      <a href='tel: +91-7378484905'>
-        <Image src="https://www.svgrepo.com/show/501822/phone.svg"
-        alt="Linkedin" width={35} height={35}
-        className="cursor-pointer"
-      /></a>
-
       <a href='https://twitter.com/shricastic7'>
         <Image src="https://www.svgrepo.com/show/331618/twitter.svg"
         alt="Linkedin" width={35} height={35}
