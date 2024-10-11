@@ -1,5 +1,11 @@
 export const blogs = [
   {
+    img: "https://miro.medium.com/v2/resize:fit:720/format:webp/0*0O8dXrVTD6d-9JUs",  
+    title: 'How is your ISP throttling your speed?',
+    desc: 'Have you ever wondered why your internet slows down just when you need it most? Whether you’re attending...',
+    link: 'https://medium.com/@shricastic/how-is-your-isp-throttling-your-speed-2893a0586c04'
+  },
+  {
     img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*JyeJKJdBI8SM3RzP56LATg.jpeg",  
     title: 'Git Using Only Bash/etc Terminal.',
     desc: 'Writing this article for myself in case i forget it. I’ll not but it will help others too.',
