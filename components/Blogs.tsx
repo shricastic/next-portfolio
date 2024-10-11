@@ -12,8 +12,8 @@ export default function Blogs() {
       <h4 className="text-md text-muted-foreground text-white">read my latest blogs</h4>
       <div className='w-full pt-10 gap-x-10 flex flex-wrap justify-center items-center'>
         { blogs.map((blog:BlogContent, index:number) => <BlogCard key={index} props={blog}/>)}
+      </div>
         <MoreBlogsCard />
-      </div> 
     </div>
 
   );

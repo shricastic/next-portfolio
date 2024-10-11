@@ -15,14 +15,14 @@ export default function ProjectsTemp({projects}: {projects: ProjectMetadata[]}){
                   src={project.image}
                   alt={project.title || ''}
                   fill
-                  className='rounded-lg object-cover object-center transition-transform duration-500 group-hover:scale-105 filter group-hover:brightness-75'
+                  className='rounded-lg object-cover object-center transition-transform duration-500 group-hover:scale-105 filter group-hover:blur-sm'
                 />
               </div>
             )}
 
             <div className='absolute inset-[1px] rounded-lg bg-background/70 opacity-0 transition-opacity duration-500 group-hover:opacity-100' />
 
-            <div className='absolute inset-x-0 bottom-0 translate-y-2 px-6 py-5 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100'>
+            <div className='absolute inset-x-0 bottom-0 translate-y-2 px-6 py-5 text-white opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100'>
               <h2 className='title line-clamp-1 text-xl font-bold no-underline'>
                 {project.title}
               </h2>
